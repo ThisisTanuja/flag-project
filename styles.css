@@ -368,6 +368,70 @@ footer {
     left: 60px;
 }
 
+.greece {
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.greece > div {
+    width: 270px;
+    height: 180px;
+    background-color: #055eb1;
+    position: relative;
+}
+
+.greece > div #verticalplus {
+    width: 20px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 40px;
+}
+
+.greece > div #horizontalplus {
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+}
+
+.greece > div .verticaltop {
+    width: 170px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+}
+
+.greece > div div.verticaltop#first {
+    top: 20px;
+    left: 100px;
+}
+
+.greece > div div.verticaltop#second {
+    top: 60px;
+    left: 100px;
+}
+
+.greece > div .verticalbottom {
+    width: 270px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+}
+
+.greece > div div.verticalbottom#first {
+    top: 100px;
+    left: 0px;
+}
+
+.greece > div div.verticalbottom#second {
+    top: 140px;
+    left: 0px;
+}
+
 .yemen, .netherlands {
     width: 324px;
     height: 40px;
