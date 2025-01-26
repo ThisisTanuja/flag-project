@@ -14,7 +14,7 @@ footer {
     text-align: center;
 }
 
-.palau {
+.palau, .poland {
     width: 320px;
     height: 40px;
     position: relative;
@@ -38,7 +38,7 @@ footer {
     left: 80px;
 }
 
-.japan {
+.japan, .ukraine, .latvia, .nigeria, .peru, .monaco {
     width: 300px;
     height: 40px;
     position: relative;
@@ -63,13 +63,6 @@ footer {
     left: 90px;
 }
 
-.ukraine {
-    width: 300px;
-    height: 40px;
-    position: relative;
-    left: 35%;
-}
-
 .ukraine > #blue {
     width: 300px;
     height: 100px;
@@ -82,14 +75,7 @@ footer {
     background-color: #ffd800;
 }
 
-.latvia {
-    width: 300px;
-    height: 40px;
-    position: relative;
-    left: 35%;
-}
-
-.latvia > div {
+.latvia > div, .nigeria > div {
     width: 300px;
     height: 150px;
     background-color: white;
@@ -110,19 +96,12 @@ footer {
     top: 90px;
 }
 
-.nigeria {
-    width: 300px;
-    height: 40px;
-    position: relative;
-    left: 35%
-}
-
-.nigeria > div {
+/* .nigeria > div {
     width: 300px;
     height: 150px;
     background-color: white;
     position: relative;
-}
+} */
 
 .nigeria > div #left {
     width: 100px;
@@ -137,13 +116,6 @@ footer {
     position: absolute;
     left: 200px;
     top: 0px;
-}
-
-.peru {
-    width: 300px;
-    height: 40px;
-    position: relative;
-    left: 35%;
 }
 
 .peru > div {
@@ -167,13 +139,6 @@ footer {
     left: 200px;
 }
 
-.poland {
-    width: 320px;
-    height: 40px;
-    position: relative;
-    left: 35%;
-}
-
 .poland > div {
     width: 320px;
     height: 200px;
@@ -189,4 +154,16 @@ footer {
     position: absolute;
     top: 100px;
     
+}
+
+.monaco > div {
+    width: 300px;
+    height: 240px;
+    background-color: white;
+}
+
+.monaco > div div {
+    width: 300px;;
+    height: 120px;
+    background-color: #cf0921;
 }
