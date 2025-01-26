@@ -38,14 +38,14 @@ footer {
     left: 80px;
 }
 
-.japan, .ukraine, .latvia, .nigeria, .peru, .monaco {
+.japan, .ukraine, .latvia, .nigeria, .peru, .monaco, .indonesia {
     width: 300px;
     height: 40px;
     position: relative;
     left: 35%;
 }
 
-.japan div {
+.japan > div, .indonesia > div {
     width: 300px;
     height: 200px;
     background-color: white;
@@ -53,7 +53,7 @@ footer {
     position: relative;
 }
 
-.japan div div {
+.japan > div div {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -166,4 +166,10 @@ footer {
     width: 300px;;
     height: 120px;
     background-color: #cf0921;
+}
+
+.indonesia > div div {
+    width: 300px;
+    height: 100px;
+    background-color: #ff0000;
 }
