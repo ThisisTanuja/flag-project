@@ -38,7 +38,7 @@ footer {
     left: 80px;
 }
 
-.japan, .ukraine, .latvia, .nigeria, .peru, .monaco, .indonesia {
+.japan, .ukraine, .latvia, .nigeria, .peru, .monaco, .indonesia, .bangladesh {
     width: 300px;
     height: 40px;
     position: relative;
@@ -201,3 +201,22 @@ footer {
     position: absolute;
     top: 160px;
 }
+
+.bangladesh > div {
+    width: 300px;
+    height: 180px;
+    background-color: #006a4d;
+    position: relative;
+}
+
+.bangladesh > div div {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f4263f;
+    position: absolute;
+    top: 30px;
+    left: 75px;
+}
+
+
