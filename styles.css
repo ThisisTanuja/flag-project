@@ -344,14 +344,14 @@ footer {
     left: 260px;
 }
 
-.yemen {
+.yemen, .netherlands {
     width: 324px;
     height: 40px;
     position: relative;
     left: 35%;
 }
 
-.yemen > div {
+.yemen > div, .netherlands > div {
     width: 324px;
     height: 216px;
     background-color: white;
@@ -368,6 +368,20 @@ footer {
     width: 324px;
     height: 72px;
     background-color: black;
+    position: absolute;
+    top: 144px;
+}
+
+.netherlands > div #top {
+    width: 324px;
+    height: 72px;
+    background-color: #ae1c28;
+}
+
+.netherlands > div #bottom {
+    width: 324px;
+    height: 72px;
+    background-color: #21468b;
     position: absolute;
     top: 144px;
 }
