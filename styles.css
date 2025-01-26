@@ -108,3 +108,32 @@ footer {
     position: absolute;
     top: 90px;
 }
+
+.nigeria {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    left: 35%
+}
+
+.nigeria > div {
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+}
+
+.nigeria > div #left {
+    width: 100px;
+    height: 150px;
+    background-color: #008850;
+}
+
+.nigeria > div #right {
+    width: 100px;
+    height: 150px;
+    background-color: #008850;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
