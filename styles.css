@@ -14,6 +14,7 @@ footer {
     text-align: center;
 }
 
+/* 1 Palau country flags */
 .palau, .poland {
     width: 320px;
     height: 40px;
@@ -219,4 +220,38 @@ footer {
     left: 75px;
 }
 
+/* 2 Palau country flags */
+.bahamas {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.bahamas > div {
+    width: 300px;
+    height: 150px;
+    background-color: #00788c;
+    position: relative;
+    z-index: -1;
+}
+
+.bahamas > div #middle {
+    width: 300px;
+    height: 50px;
+    background-color: #ffc828;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
+
+.bahamas > div #triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 75px solid transparent;
+    border-left: 100px solid black;
+    border-bottom: 75px solid transparent;
+    position: absolute;
+    top: 0px;   
+}
 
