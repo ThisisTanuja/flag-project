@@ -343,3 +343,31 @@ footer {
     top: 0px;
     left: 260px;
 }
+
+.yemen {
+    width: 324px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.yemen > div {
+    width: 324px;
+    height: 216px;
+    background-color: white;
+    position: relative;
+}
+
+.yemen > div #top {
+    width: 324px;
+    height: 72px;
+    background-color: #cf0921;
+}
+
+.yemen > div #bottom {
+    width: 324px;
+    height: 72px;
+    background-color: black;
+    position: absolute;
+    top: 144px;
+}
