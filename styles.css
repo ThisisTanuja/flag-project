@@ -285,3 +285,33 @@ footer {
     top: 88px;
 }
 
+.sweden {
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.sweden > div {
+    width: 320px;
+    height: 200px;
+    background-color: #005194;
+    position: relative;
+}
+
+.sweden > div #vertical {
+    width: 40px;
+    height: 200px;
+    background-color: #fecc00;
+    position: absolute;
+    left: 100px;
+}
+
+.sweden > div #horizontal {
+    width: 320px;
+    height: 40px;
+    background-color: #fecc00;
+    position: absolute;
+    top: 80px;
+}
+
