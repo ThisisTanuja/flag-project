@@ -61,3 +61,22 @@ footer {
     top: 40px;
     left: 90px;
 }
+
+.ukraine {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.ukraine > #blue {
+    width: 300px;
+    height: 100px;
+    background-color: #0056b8;
+}
+
+.ukraine > #yellow {
+    width: 300px;
+    height: 100px;
+    background-color: #ffd800;
+}
