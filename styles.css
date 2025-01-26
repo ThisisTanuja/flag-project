@@ -255,3 +255,33 @@ footer {
     top: 0px;   
 }
 
+.finland {
+    width: 396px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.finland > div {
+    width: 396px;
+    height: 242px;
+    background-color: white;
+    position: relative;
+}
+
+.finland > div #vertical {
+    width: 66px;
+    height: 242px;
+    background-color: #002b6c;
+    position: absolute;
+    left: 110px;
+}
+
+.finland > div #horizontal {
+    width: 396px;
+    height: 66px;
+    background-color: #002b6c;
+    position: absolute;
+    top: 88px;
+}
+
