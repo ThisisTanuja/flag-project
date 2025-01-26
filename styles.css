@@ -315,3 +315,31 @@ footer {
     top: 80px;
 }
 
+.belgium {
+    width: 390px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.belgium > div {
+    width: 390px;
+    height: 338px;
+    background-color: #fddb20;
+    position: relative;
+}
+
+.belgium > div #left {
+    width: 130px;
+    height: 338px;
+    background-color: black;
+}
+
+.belgium > div #right {
+    width: 130px;
+    height: 338px;
+    background-color: #ef303e;
+    position: absolute;
+    top: 0px;
+    left: 260px;
+}
