@@ -37,3 +37,27 @@ footer {
     top: 40px;
     left: 80px;
 }
+
+.japan {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.japan div {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+}
+
+.japan div div {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #b12d3d;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
