@@ -285,7 +285,7 @@ footer {
     top: 88px;
 }
 
-.sweden {
+.sweden, .switzerland {
     width: 320px;
     height: 40px;
     position: relative;
@@ -342,6 +342,30 @@ footer {
     position: absolute;
     top: 0px;
     left: 260px;
+}
+
+.switzerland > div {
+    width: 320px;
+    height: 320px;
+    background-color: #db2416;
+    position: relative;
+} 
+
+.switzerland > div #vertical {
+    width: 60px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 130px;
+}
+.switzerland > div #horizontal {
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 60px;
 }
 
 .yemen, .netherlands {
