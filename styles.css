@@ -80,3 +80,31 @@ footer {
     height: 100px;
     background-color: #ffd800;
 }
+
+.latvia {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.latvia > div {
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+}
+
+.latvia > div #top {
+    width: 300px;
+    height: 60px;
+    background-color: #78323a;
+}
+
+.latvia > div #bottom {
+    width: 300px;
+    height: 60px;
+    background-color: #78323a;
+    position: absolute;
+    top: 90px;
+}
