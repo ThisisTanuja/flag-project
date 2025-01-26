@@ -49,6 +49,7 @@ footer {
     width: 300px;
     height: 200px;
     background-color: white;
+    /* border: 0.1em solid black; */
     position: relative;
 }
 
@@ -146,7 +147,6 @@ footer {
 }
 
 .peru > div {
-    width: 300px;
     height: 200px;
     background-color: white;
     position: relative;
@@ -165,4 +165,28 @@ footer {
     position: absolute;
     top: 0px;
     left: 200px;
+}
+
+.poland {
+    width: 320px;
+    height: 40px;
+    position: relative;
+    left: 35%;
+}
+
+.poland > div {
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    /* border: 0.1em solid black; */
+    position: relative;
+}
+
+.poland > div div {
+    width: 320px;
+    height: 100px;
+    background-color: #dd0c39;
+    position: absolute;
+    top: 100px;
+    
 }
